@@ -38,7 +38,7 @@ func onReady() {
             estDifference := estNow.Hour() - cstNow.Hour()
             pstDifference := pstNow.Hour() - cstNow.Hour()
 
-            systray.SetTitle(fmt.Sprintf("%s", cstNow.Format("3:04:05 pm MST")))
+            systray.SetTitle(fmt.Sprintf("%s", cstNow.Format("3:04 pm MST")))
             // You can add more menu items to display other timezones
             pTime.SetTitle(fmt.Sprintf("%s (%v)", pstNow.Format("3:04 pm MST"), pstDifference))
             eTime.SetTitle(fmt.Sprintf("%s (%v)", estNow.Format("3:04 pm MST"), estDifference))
