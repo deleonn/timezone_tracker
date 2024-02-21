@@ -1,3 +1,5 @@
+![image](https://github.com/deleonn/timezone_tracker/assets/15114660/de998b84-25d4-4ca4-9c4c-e5ffd6cd41bd)
+
 # How to run
 
 1. Build with `go build`.
